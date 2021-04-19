@@ -1,0 +1,13 @@
+.Header {
+  display: flex;
+  min-height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 2px solid #cccccc40;
+  padding: 0px 20px;
+
+  .humberger {
+    cursor: pointer;
+  }
+}

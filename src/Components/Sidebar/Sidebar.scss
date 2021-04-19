@@ -1,0 +1,24 @@
+.Sidebar {
+  min-width: 70px;
+  border-right: 2px solid #cccccc40;
+  .logo {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+  }
+  .sidebar-items {
+    li {
+      list-style: none;
+      text-align: center;
+      color: #f2f2f2cb;
+      padding: 20px 6px;
+    }
+    li:hover {
+      background: #ffffff14;
+    }
+  }
+}

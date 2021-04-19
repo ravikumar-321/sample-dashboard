@@ -1,0 +1,15 @@
+.dashboard {
+  margin: 1.2rem 2rem;
+  flex: 1;
+  .chart-main {
+    display: flex;
+    flex-wrap: wrap;
+    .chart-container {
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 5px;
+      flex: 1;
+      margin: 20px;
+    }
+  }
+}
